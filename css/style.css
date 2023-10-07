@@ -1,0 +1,154 @@
+.conteiner {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    padding: 52px 98px;
+    /* border: 5px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFF;
+}
+
+.logo {
+    align-items: center;
+}
+
+.header_nav {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.li1 {
+    color: #27187F;
+    font-size: 24px;
+}
+
+.li2 {
+    color: #758BFD;
+    font-size: 24px;
+}
+
+.serch_div {
+    border-radius: 10px;
+    border: 3px solid #27187F;
+    display: flex;
+    width: 221px;
+    height: 56px;
+    padding-left: 0px;
+    justify-content: flex-end;
+    align-items: center;
+
+
+}
+
+.fa-magnifying-glass {
+    font-size: 30px;
+    color: #758BFD
+}
+
+/* section */
+
+section {
+    width: 100%;
+    padding: 115px 98px;
+    background: #DDEAF8;
+}
+
+h1 {
+    color: #27187F;
+    font-size: 32px;
+    margin-bottom: 68px;
+    width: 232px;
+}
+
+.main_div {
+    display: flex;
+    flex-wrap: wrap;
+    color: #133B3A;
+    font-size: 23px;
+    gap: 22px;
+}
+
+.cards_div {
+    display: flex;
+    width: 32%;
+    padding: 33px 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 10px;
+    background: #FFF;
+    color: #133B3A;
+    margin-bottom: 115px;
+}
+
+.cards_div1 {
+    display: flex;
+    width: 32%;
+    padding: 33px 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 10px;
+    background: #FFF;
+    color: #133B3A;
+    margin-bottom: 51px;
+}
+
+.card {
+    width: 340px;
+    height: 188px;
+    border-radius: 10px;
+    margin-bottom: 33px;
+}
+
+footer {
+    width: 100%;
+    background: #758BFD;
+    display: inline-flex;
+    padding: 75px 98px;
+    justify-content: center;
+    align-items: center;
+    gap: 663px;
+}
+
+.footer_ul {
+    display: flex;
+    gap: 24px;
+    color:#FFFFFF;
+    width: 22px;
+height: 22px;
+}
+
+h3 {
+    color: #00CAD7;
+    font-size: 20px;
+}
+
+h4 {
+    color: #FFF;
+    font-size: 13px;
+    margin-top: 38px;
+    margin-bottom: 33px;
+}
+.footer_count{
+    display: flex;
+    gap: 11px;
+
+}
+.count_icon{
+    width: 97px;
+height: 55px;
+border-radius: 5px;
+background: #FFF;
+}
+.count_icon1{
+    padding: 13px 5px 15px 2px;
+background: #FFF;
+
+}
